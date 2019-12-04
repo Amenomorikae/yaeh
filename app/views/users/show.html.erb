@@ -1,0 +1,7 @@
+<div class="container">
+	<div class="my-info">
+		<%= attachment_image_tag @user, :profile_image, :fill, 60, 60, class: "img-circle pull-left profile-thumb", fallback: "no_image.jpg"%>
+		<%= @user.name %>
+		<%= @user.introduction %>
+	</div>
+</div>
